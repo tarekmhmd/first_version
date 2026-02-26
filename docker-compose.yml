@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  medical-ai-assistant:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./data:/app/data
+      - ./models_pretrained:/app/models_pretrained
+    environment:
+      - FLASK_ENV=production
+      - SECRET_KEY=change-this-in-production
+    restart: unless-stopped

@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Database
+*.db
+*.sqlite3
+
+# Models and Data
+models_pretrained/
+data/
+uploads/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Windows
+*.tmp
+*.temp
+Desktop.ini
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Large binary files (use Git LFS if needed)
+*.exe
+*.dll
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Tesseract (too large for direct Git)
+tessdata/
+tesseract/
