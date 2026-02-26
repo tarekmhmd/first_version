@@ -1,3 +1,15 @@
+# Notes for Cloning the Repository
+
+This repository uses **Git LFS** for large files (DLLs, EXEs, trained data, etc.).  
+To clone and get all files correctly, do the following:
+
+```bash
+git clone https://github.com/tarekmhmd/first_version.git
+cd first_version
+git lfs install    # if Git LFS is not installed
+git lfs pull       # download large files
+
+
 # 🏥 Medical AI Assistant
 
 A comprehensive web-based medical assistant powered by artificial intelligence for health analysis and consultation.
